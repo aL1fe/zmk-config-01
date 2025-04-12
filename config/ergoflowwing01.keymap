@@ -42,21 +42,21 @@
 
         mo2_layer {
             bindings = <
-                &kp GRAVE       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &none  &kp F6  &kp F7  &kp F8       &kp F9  &kp F10       &kp F11  &kp F12
-                &none           &none   &none   &none   &none   &none   &none  &none   &none   &none        &none   &none         &none    &none
-                &kp KP_NUMLOCK  &none   &none   &none   &none   &none   &none  &none   &none   &none        &none   &none         &none    &none
-                &none           &none   &none   &none   &none   &none   &none  &none   &none   &none        &none   &none         &none    &kp PAUSE_BREAK
-                &none           &none   &none   &none   &none   &none   &none  &none   &none   &kp LC(INS)  &none   &kp C_VOL_DN  &none    &kp LC(KP_ENTER)
+                &kp GRAVE       &kp F1		  &kp F2         &kp F3           &kp F4         &kp F5         &none  &kp F6  &kp F7  &kp F8       &kp F9  &kp F10       &kp F11     &kp F12
+                &none           &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2     &bt BT_SEL 3   &bt BT_SEL 4   &none  &none   &none   &none        &none   &bt BT_CLR    &bt BT_NXT  &bt BT_PRV
+                &kp KP_NUMLOCK  &none         &none          &none            &none          &none          &none  &none   &none   &none        &none   &none         &none       &none
+                &none           &none         &none          &none            &none          &none          &none  &none   &none   &none        &none   &none         &none       &kp PAUSE_BREAK
+                &none           &none         &none          &none            &none          &none          &none  &none   &none   &kp LC(INS)  &none   &kp C_VOL_DN  &none       &kp LC(KP_ENTER)
             >;
         };
 
         adjust_layer {
             bindings = <
-                &none       &none         &none         &none         &none         &none         &none     &none     &none            &none            &none            &none            &none            &none
-                &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans    &trans    &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG
-                &bt BT_NXT  &out OUT_TOG  &out OUT_USB  &out OUT_BLE  &trans        &trans        &trans    &trans    &rgb_ug RGB_EFR  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &trans
-                &bt BT_PRV  &trans        &trans        &trans        &trans        &trans        &kp LBRC  &kp RBRC  &trans           &trans           &trans           &trans           &trans           &trans
-                &trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans    &trans           &trans           &trans           &trans           &trans           &trans
+                &none       &none         &none         &none         &none         &none         &none  &none  &none  &none  &none  &none  &none  &none
+                &bt BT_CLR  &none         &none         &none         &none         &none         &none  &none  &none  &none  &none  &none  &none  &none
+                &bt BT_NXT  &none         &none         &none         &none         &none         &none  &none  &none  &none  &none  &none  &none  &none
+                &bt BT_PRV  &none         &none         &none         &none         &none         &none  &none  &none  &none  &none  &none  &none  &none
+                &none       &none         &none         &none         &none         &none         &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
     };
