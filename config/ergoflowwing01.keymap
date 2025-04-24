@@ -38,11 +38,11 @@
 
         mo1_layer {
             bindings = <
-&kp TILDE  &pass01  &none  &none             &none  &none  &kp F5     &none         &none            &kp STAR         &kp FSLH         &none            &none  &none
-&none      &none    &none  &none             &none  &none  &none      &kp KP_EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS        &none  &none
-&none      &none    &none  &none             &none  &none  &none      &kp LS(LPAR)  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS         &none  &none
-&none      &none    &none  &kp K_CALCULATOR  &none  &none  &kp PG_UP  &kp LS(RPAR)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT          &none  &kp BSPC
-&none      &none    &none  &none             &none  &none  &kp HOME   &kp END       &kp PG_DN        &kp LS(INS)      &none            &kp KP_NUMBER_0  &none  &kp LS(KP_ENTER)
+&kp TILDE  &pass01  &none  &none                &none  &none  &kp F5     &none         &none            &kp STAR         &kp FSLH         &none            &none  &none
+&none      &none    &none  &none                &none  &none  &none      &kp KP_EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS        &none  &none
+&none      &none    &none  &none                &none  &none  &none      &kp LS(LPAR)  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS         &none  &none
+&none      &none    &none  &kp C_AL_CALCULATOR  &none  &none  &kp PG_UP  &kp LS(RPAR)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT          &none  &kp BSPC
+&none      &none    &none  &none                &none  &none  &kp HOME   &kp END       &kp PG_DN        &kp LS(INS)      &none            &kp KP_NUMBER_0  &none  &kp LS(KP_ENTER)
             >;
         };
 
