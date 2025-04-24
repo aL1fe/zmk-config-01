@@ -1,6 +1,6 @@
 file_format: "1"
 id: ergoflowwing01
-name: Ergoflowwing01
+name: "ErgoFlow Wing v01"
 type: shield
 url: https://github.com/MakotoKurauchi/ergoflowwing01
 requires: [pro_micro]
