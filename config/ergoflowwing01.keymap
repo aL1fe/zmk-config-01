@@ -39,11 +39,11 @@
 
         mo2_layer {
             bindings = <
-&kp GRAVE       &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &none  &kp F6  &kp F7  &kp F8       &kp F9  &kp F10       &kp F11     &kp F12
-&none           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none   &none   &none        &none   &bt BT_CLR    &bt BT_NXT  &bt BT_PRV
-&kp KP_NUMLOCK  &none         &none         &none         &none         &none         &none  &none   &none   &none        &none   &none         &none       &none
-&none           &none         &none         &none         &none         &none         &none  &none   &none   &none        &none   &none         &none       &kp PAUSE_BREAK
-&none           &none         &none         &none         &none         &none         &none  &none   &none   &kp LC(INS)  &none   &kp C_VOL_DN  &none       &kp LC(KP_ENTER)
+&kp GRAVE       &kp F1        &kp F2        &kp F3            &kp F4        &kp F5        &none  &kp F6  &kp F7  &kp F8       &kp F9  &kp F10       &kp F11     &kp F12
+&none           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &none  &none   &none   &none        &none   &bt BT_CLR    &bt BT_NXT  &bt BT_PRV
+&kp KP_NUMLOCK  &none         &none         &none             &none         &none         &none  &none   &none   &none        &none   &none         &none       &none
+&none           &none         &none         &kp K_CALCULATOR  &none         &none         &none  &none   &none   &none        &none   &none         &none       &kp PAUSE_BREAK
+&none           &none         &none         &none             &none         &none         &none  &none   &none   &kp LC(INS)  &none   &kp C_VOL_DN  &none       &kp LC(KP_ENTER)
             >;
         };
     };
